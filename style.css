@@ -1,0 +1,387 @@
+body {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background: white;
+    font-size: 16px;
+    font-weight: normal;
+    color: #26272d;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.conteiner {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* BUR_____________________________________________________________________*/
+
+/* BUR_____________________________________________________________________*/
+
+/* BUR_____________________________________________________________________*/
+
+.bur-menu {
+    display: none;
+    transition: 3s linear;
+}
+
+.bur-menu-links {
+    transition: 3s linear;
+}
+
+/* NAV_____________________________________________________________________*/
+
+/* NAV_____________________________________________________________________*/
+
+/* NAV_____________________________________________________________________*/
+
+.nav {
+    position: relative;
+    z-index: 5;
+    transition: .3s;
+}
+
+.nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    color: #26272d;
+    margin: 10px 0px;
+    height: 70px;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.nav.fixed {
+    margin-top: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    box-shadow: 0px 1px 15px rgba(27, 28, 30, 0.1);
+    transition: .3s;
+    width: 100%;
+}
+
+.nav-links-1>ul>li, .nav-links-2>ul>li, .nav-links-2>ul>a>li, .nav-logo, .nav-links-2>ul>a {
+    list-style-type: none;
+    transition: 0.2s linear;
+}
+
+.nav-links-1>ul>li>a, .nav-links-2>ul>li>a, .nav-links-2>ul>a, .protect-block-btns>a {
+    text-decoration: none;
+    color: unset;
+}
+
+.nav-links-1>ul, .nav-links-2>ul, .nav-links-2>ul>.nav-app-btn {
+    margin-left: 0px;
+    padding-left: 0px;
+    display: flex;
+}
+
+.nav-links-1>ul>li:first-child, .nav-links-2>ul>li:first-child {
+    margin-left: 0px;
+}
+
+.nav-links-1>ul>li:last-child, .nav-links-2>ul>li:last-child {
+    margin-right: 0px;
+}
+
+.nav-links-1>ul>li, .nav-links-2>ul>li {
+    margin: 0px 15px;
+}
+
+.nav-links-2>ul>a>li>img {
+    margin-right: 10px;
+}
+
+.nav-links-2>ul>li:nth-child(1) {
+    color: rgba(27, 28, 30, 0.4);
+}
+
+.nav-links-2>ul {
+    align-items: center;
+}
+
+.nav-links-2>ul>a {
+    display: flex;
+    background: #267df4;
+    color: white;
+    padding: 6px 15px!important;
+    border-radius: 21px;
+}
+
+.nav-links-1>ul>li:nth-child(1n+2):hover, .nav-logo:hover, .nav-links-2>ul>li:hover, .nav-links-2>ul>a:hover {
+    transform: translate(0px, -3px);
+    opacity: 0.5;
+}
+
+/* MAIN_____________________________________________________________________*/
+
+/* MAIN_____________________________________________________________________*/
+
+/* MAIN_____________________________________________________________________*/
+
+.main-content.fixmain {
+    margin-top: 70px;
+}
+
+.main-content {
+    position: relative;
+    top: -70px;
+    width: 100%;
+    max-height: 1070px;
+    overflow: hidden;
+    background: url(/images/banner_background.jpg) bottom/cover no-repeat;
+    align-items: center;
+    text-align: center;
+}
+
+.main-text {
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main-text-large {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 62px;
+    margin-bottom: 40px;
+}
+
+.main-text-small {
+    font-size: 20px;
+    font-weight: 300;
+    color: #8c8f94;
+    max-width: 750px;
+    line-height: 1.5;
+}
+
+.main-btn {
+    margin: 65px 0px;
+}
+
+.main-btn-link {
+    text-decoration: none;
+}
+
+.main-btn-inner {
+    display: flex;
+    border: 1px solid rgb(38, 39, 45, 0.1);
+    border-radius: 25px;
+    align-items: center;
+    padding: 10px 35px;
+    transition: 0.3s linear;
+    color: black;
+}
+
+.main-corn {
+    border: 7px solid transparent;
+    border-left: 11px solid black;
+    transition: 0.3s linear;
+}
+
+.main-btn-inner:hover {
+    background: black;
+    color: white;
+    transform: translate(0px, -5px);
+}
+
+.main-btn-inner:hover .main-corn {
+    border-left: 11px solid white;
+}
+
+.main-img {
+    width: 100%;
+    align-items: center;
+}
+
+.main-img-inner {
+    filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.55));
+}
+
+/* BEN_____________________________________________________________________*/
+
+/* BEN_____________________________________________________________________*/
+
+/* BEN_____________________________________________________________________*/
+
+.ben-block-benefits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ben-block-benefits-cart {
+    flex: 1;
+    max-width: 480px;
+    min-width: 350px;
+}
+
+.ben-block-benefits-cart-img>img {
+    margin-bottom: 20px;
+}
+
+.ben-block-benefits-cart-header {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.ben-block-benefits-cart-text {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #8c8f94;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+/* BREAKLINE_____________________________________________________________*/
+
+/* BREAKLINE_____________________________________________________________*/
+
+/* BREAKLINE_____________________________________________________________*/
+
+.breakline-inner {
+    min-width: 100%;
+    height: 1px;
+    margin: 10px 0px;
+    background: #f4f4f4;
+    margin-top: 45px;
+}
+
+/* PROTECT-BLOCK________________________________________________________*/
+
+/* PROTECT-BLOCK________________________________________________________*/
+
+/* PROTECT-BLOCK________________________________________________________*/
+
+.protect-block-inner {
+    display: flex;
+    flex-direction: row;
+    margin-top: 75px;
+}
+
+.protect-block-img {
+    position: relative;
+    margin-left: -250px;
+}
+
+.protect-block-content {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.protect-block-header {
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Varela Round', sans-serif;
+    margin-bottom: 70px;
+}
+
+.protect-block-text {
+    margin-bottom: 70px;
+    color: #8c8f94;
+}
+
+.protect-block-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.protect-block-btn1 {
+    padding: 10px 60px;
+    border: 1px solid #267df4;
+    color: white;
+    background: #267df4;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.protect-block-btn2 {
+    padding: 10px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+/* MEDIA___________________________________________________________*/
+
+/* MEDIA___________________________________________________________*/
+
+/* MEDIA___________________________________________________________*/
+
+@media (max-width: 700px) {
+    body.fix {
+        position: fixed;
+        overflow: hidden;
+    }
+    .bur-menu.show {
+        display: unset;
+        background: white;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .bur-menu-links {
+        margin-top: 70px;
+        margin-left: 70px;
+        padding-left: 0px;
+    }
+    .bur-menu-links>li {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+    .bur-menu-links>li>a {
+        text-decoration: none;
+        color: black;
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    /* NAV________________________________________________________*/
+    .main-content.fixmain {
+        margin-top: 40px;
+    }
+    .nav-inner {
+        height: 40px;
+    }
+    .nav-links-1>ul>:nth-child(n+2), .nav-links-2 {
+        display: none;
+    }
+    .nav-links-1 {
+        position: relative;
+        z-index: 50;
+        margin-left: 20px;
+    }
+    .nav-logo {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+    }
+    /* MAIN_______________________________________________________*/
+    .main-content {
+        max-height: 1120px;
+    }
+    .main-text {
+        margin-top: 80px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    /* BENEFITS_____________________________________________________*/
+    .ben-block {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
