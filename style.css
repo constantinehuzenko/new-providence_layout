@@ -136,7 +136,7 @@ body {
     width: 100%;
     max-height: 1070px;
     overflow: hidden;
-    background: url(/images/banner_background.jpg) bottom/cover no-repeat;
+    background: url(images/banner_background.jpg) bottom/cover no-repeat;
     align-items: center;
     text-align: center;
 }
