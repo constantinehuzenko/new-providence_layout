@@ -1,22 +1,19 @@
-var navtoggle = document.getElementById('navtoggle')
-var jsburmenu = document.getElementById('jsburmenu')
-var jsbody = document.getElementById('jsbody')
+// Hamburger icon close animation
+var burgerClose = document.getElementById('burger')
 
-navtoggle.addEventListener('click', function () {
-    jsburmenu.classList.toggle('show');
-    jsbody.classList.toggle('fix');
+burgerClose.addEventListener('click', function () {
+    burgerClose.classList.toggle('close');
 });
 
-console.log(navtoggle, jsburmenu)
-
+// Sticky nav bar
 window.onscroll = function () { myFunction() };
 
 function myFunction() {
     if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
-        document.getElementById("jsnav").className = "nav fixed";
-        document.getElementById("jsmaincontent").className = "main-content fixmain";
+        document.getElementById("header").className = "header header_fixed";
+        // document.getElementById("jsmaincontent").className = "main-content fixmain";
     } else {
-        document.getElementById("jsnav").className = "nav";
-        document.getElementById("jsmaincontent").className = "main-content";
+        document.getElementById("header").className = "header";
+        // document.getElementById("jsmaincontent").className = "main-content";
     }
-}
+};
