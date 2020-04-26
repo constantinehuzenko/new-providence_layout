@@ -150,7 +150,7 @@ p {
     top: -60px;
     min-height: 870px;
     overflow: hidden;
-    background: url(/images/banner_background.jpg) bottom/cover no-repeat;
+    background: url(images/banner_background.jpg) bottom/cover no-repeat;
 }
 
 .main_section_inner {
