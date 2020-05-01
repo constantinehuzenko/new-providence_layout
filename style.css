@@ -200,6 +200,7 @@ p {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    height: 75%;
 }
 
 .burger_item {
