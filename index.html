@@ -11,12 +11,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
-<body>
+<body id="body" class="body">
 
     <!-- Nav -->
     <header id="header" class="header">
         <nav class="nav">
-            <div class="conteiner">
+            <div class="wraper">
                 <div class="nav_inner">
                     <ul class="nav_inner_items fix_ul">
 
@@ -28,11 +28,11 @@
                                     <span></span>
                                 </div>
                             </li>
-                            <li class="nav_item nav_hidden">
+                            <li class="nav_item hidden">
                                 <a class="nav_link fix_a" href="">Tour</a></li>
-                            <li class="nav_item nav_hidden">
+                            <li class="nav_item hidden">
                                 <a class="nav_link fix_a" href="">Feauters</a></li>
-                            <li class="nav_item nav_hidden">
+                            <li class="nav_item hidden">
                                 <a class="nav_link fix_a" href="">Pricing</a></li>
                         </div>
 
@@ -41,12 +41,12 @@
                         </div>
 
                         <div class="nav_right">
-                            <li class="nav_item nav_hidden">
+                            <li class="nav_item hidden">
                                 <a class="nav_link fix_a" href="">Help</a></li>
-                            <li class="nav_item nav_hidden">
+                            <li class="nav_item hidden">
                                 <a class="nav_link fix_a" href="">Contacts</a></li>
-                            <li class="nav_item nav_hidden">
-                                <a class="fix_a nav_btn" href="">
+                            <li class="nav_item hidden">
+                                <a class="nav_btn fix_a" href="">
                                     <img class="nav_btn_icon" src="images/Apple_Icon.png" alt="">Get app</a>
                             </li>
                         </div>
@@ -56,9 +56,22 @@
         </nav>
     </header>
 
+    <!-- Burger -->
+    <div id="burger_page" class="burger_page">
+        <div class="burger_page_inner">
+            <ul class="burger_items fix_ul">
+                <li class="burger_item"><a class="fix_a" href="#">Tour</a></li>
+                <li class="burger_item"><a class="fix_a" href="#">Feauters</a></li>
+                <li class="burger_item"><a class="fix_a" href="#">Pricing</a></li>
+                <li class="burger_item"><a class="fix_a" href="#">Help</a></li>
+                <li class="burger_item"><a class="fix_a" href="#">Contacts</a></li>
+            </ul>
+        </div>
+    </div>
+
     <!-- Main -->
-    <main class="main_section">
-        <div class="conteiner">
+    <main id="main_section" class="main_section">
+        <div class="wraper">
             <section class="main_section_inner">
 
                 <div class="main_text">
@@ -70,8 +83,8 @@
                     </p>
 
                     <a class="main_btn fix_a" href="#">
-                        <div class="main_btn_inner tran">
-                            <div class="main_corn tran"></div>
+                        <div class="main_btn_inner">
+                            <div class="main_corn"></div>
                             Watch Video
                         </div>
                     </a>
@@ -85,141 +98,170 @@
         </div>
     </main>
 
-    <!-- BENEFITS -->
-    <div class="ben-block">
-        <div class="conteiner">
-            <div class="ben-block-inner">
-                <div class="ben-block-benefits">
-                    <div class="ben-block-benefits-cart">
-                        <div class="ben-block-benefits-cart-img"><img width="50px" height="55px"
-                                src="images/Lock Icon.png" alt=""></div>
-                        <div class="ben-block-benefits-cart-header">Real-time all the time</div>
-                        <div class="ben-block-benefits-cart-text">Thus much I thought proper to tell you in
-                            relation to yourself, and to the trust I reposed in you.Just then her head struck
-                            against the roof of
-                            the hall: in fact she was now more than nine feet high, and she at once took up the
-                            little golden key and hurried off to the garden door.</div>
+    <!-- Benefits -->
+    <section class="benefits">
+        <div class="wraper">
+            <div class="benefits_inner">
+
+                <div class="benefits_cart">
+                    <div class="benefits_cart_icon">
+                        <img width="50px" height="55px" src="images/Lock Icon.png" alt="">
                     </div>
-                    <div class="ben-block-benefits-cart">
-                        <div class="ben-block-benefits-cart-img"><img width="50px" height="55px"
-                                src="images/Clock Icon.png" alt=""></div>
-                        <div class="ben-block-benefits-cart-header">Adopt without any obstacles</div>
-                        <div class="ben-block-benefits-cart-text">This sounded a very good reason, and Alice
-                            was quite pleased to know it. 'I never thought of that before!' she said. This I
-                            have produced as a scantling of Jack’s
-                            great eloquence and the force of his reasoning upon such abstruse matters.</div>
+                    <h3>Real-time all the time</h3>
+                    <p>Thus much I thought proper to tell you in
+                        relation to yourself, and to the trust I reposed in you.Just then her head struck
+                        against the roof of
+                        the hall: in fact she was now more than nine feet high, and she at once took up the
+                        little golden key and hurried off to the garden door.
+                    </p>
+                </div>
+
+                <div class="benefits_cart">
+                    <div class="benefits_cart_icon">
+                        <img width="50px" height="55px" src="images/Clock Icon.png" alt="">
+                    </div>
+                    <h3>Adopt without any obstacles</h3>
+                    <p>This sounded a very good reason, and Alice
+                        was quite pleased to know it. 'I never thought of that before!' she said. This I
+                        have produced as a scantling of Jack’s
+                        great eloquence and the force of his reasoning upon such abstruse matters.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Breakline -->
+    <div class="brakline">
+        <div class="wraper">
+            <div class="breakline-inner"></div>
+        </div>
+    </div>
+
+    <!-- Protect block -->
+    <section class="protection_block">
+        <div class="wraper">
+            <div class="protect_block_inner">
+                <div class="protect_block_img">
+                    <img class="protect_block_img_inner" src="images/iphone-feature.png" alt="">
+                </div>
+                <div class="protect_block_content">
+                    <h2>Your day <br> is protected</h2>
+                    <p>There have not been any since we have lived here, said
+                        my mother.
+                        <br><br>
+                        We thought - Mr. Copperfield thought - it was quite a large rookery; but the nests
+                        were very old ones, and the birds have deserted them a long while.
+                    </p>
+
+                    <div class="protect_block_btns">
+                        <a href="#" class="protect_block_btn1 fix_a">Try to huck us<img width="15px" height="15px"
+                                src="images/Arrow Icon.png" alt=""></a>
+                        <a href="#" class="protect_block_btn2 fix_a"> Learn more</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <!-- BREAKLINE -->
-    <div class="brakline">
-        <div class="conteiner">
-            <div class="breakline-inner"> </div>
         </div>
-    </div>
+    </section>
 
-    <!-- PROTECT-BLOCK -->
-    <div class="protect-block">
-        <div class="conteiner">
-            <div class="protect-block-inner">
-                <img class="protect-block-img" src="images/iphone-feature.png" alt="">
-                <div class="protect-block-content">
-                    <div class="protect-block-content-inner">
-                        <div class="protect-block-header">Your day
-                            is protected</div>
-                        <div class="protect-block-text">There have not been any since we have lived here, said
-                            my mother. <br><br>
-
-                            We thought - Mr. Copperfield thought - it was quite a large rookery; but the nests
-                            were very old ones, and the birds have deserted them a long while.</div>
-
-                        <div class="protect-block-btns">
-                            <a href="" class="protect-block-btn1">
-                                <div class="protect-block-btn1-text">Try to huck us</div>
-                                <div class="protect-block-btn1-arrow"><img src="images/Arrow Icon.png" alt="">
-                                </div>
-                            </a>
-                            <a href="" class="protect-block-btn2">
-                                <div class="protect-block-btn2-text"> Learn more</div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- BREAKLINE -->
-    <div class="brakline">
-        <div class="conteiner">
-            <div class="breakline-inner"> </div>
-        </div>
-    </div>
-
-    <!-- MAP-BLOCK -->
-    <div class="map-block">
-        <div class="conteiner">
-            <div class="map-block-inner">
-                <div class="map-block-content">
-                    <div class="map-block-header">
-                        We are almost everywhere
-                    </div>
-                    <div class="map-block-text">
+    <!-- Map block -->
+    <section class="map_block">
+        <div class="wraper">
+            <div class="map_block_inner">
+                <div class="map_block_content">
+                    <h2>We are almost everywhere</h2>
+                    <p>
                         Now the races of these two have been for some ages utterly extinct, and besides to
                         discourse any further of them would not be at all to my purpose.
                         <br><br>
                         Thus much I thought proper to tell you in relation to yourself, and to the trust I
                         reposed in you.
-                    </div>
-                    <div class="map-block-partners">
-                        <div class="map-block-partners-text">Partners</div>
-                        <div class="map-block-partners-imgs">
+                    </p>
+                    <div class="map_block_partners">
+                        <h4>Partners</h4>
+                        <div class="map_block_partners_imgs">
                             <img src="images/dropbox.png" alt="">
                             <img src="images/evernote.png" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="map-block-img">
+                <div class="map_block_img">
                     <img src="images/map.png" alt="">
                 </div>
             </div>
         </div>
-    </div>
-    <!-- BEAUTIFUL-INTERFACE-BLOCK (.bib) -->
-    <div class="bib">
+    </section>
+
+    <!-- App screens -->
+    <section class="app_screens">
         <h1>Beautiful interface</h1>
-        <div class="bib-breakline"></div>
+        <div class="app_screens_breakline"></div>
         <h4>Landing screen</h4>
-        <div class="bib-imgs">
+        <div class="app_screens_imgs">
             <img src="images/interface/img-1.png" alt="">
             <img src="images/interface/img-2.png" alt="">
             <img src="images/interface/main-img.png" alt="">
             <img src="images/interface/img-3.png" alt="">
             <img src="images/interface/img-4.png" alt="">
         </div>
+
+        <!-- Form -->
         <div class="form">
             <h4>Newprovidence</h4>
             <h1>Get it to your smartphone</h1>
-            <form class="form-input">
+            <form class="form_input">
                 <input type="email" placeholder="email">
-                <input class="arrow-tt" type="submit" value="Send Invate">
+                <input type="submit" value="Send Invate">
             </form>
         </div>
-        <div class="bib-app-btn">
-            <div class="bib-app-btn-text">Or download from</div>
-            <a href="#"> <img class="bib-app-btn-img" src="images/Download on the AppStore.png" alt=""> </a>
+        <div class="app_screen_btn">
+            <h4>Or download from</h4>
+            <a href="#"> <img class="app_screen_btn_img" src="images/Download on the AppStore.png" alt=""> </a>
         </div>
-    </div>
-    <div class="slider">
-        <img src="images/user1.jpg" alt="">
-        <img src="images/user2.jpg" alt="">
-        <img src="images/user3.jpg" alt="">
-    </div>
-</body>
+    </section>
 
-<script src="app.js"></script>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="wraper">
+            <div class="footer_inner">
+
+                <ul class="footer_list fix_ul">
+                    <li>
+                        <h4>learn more</h4>
+                    </li>
+                    <li class="footer_item"><a class="fix_a" href="">How it works?</a></li>
+                    <li class="footer_item"><a class="fix_a" href="">Meeting tools</a></li>
+                    <li class="footer_item"><a class="fix_a" href="">Live striming</a></li>
+                    <li class="footer_item"><a class="fix_a" href="">Contat method</a></li>
+                </ul>
+
+                <ul class="footer_list fix_ul">
+                    <li>
+                        <h4>about us</h4>
+                    </li>
+                    <li class="footer_item"><a class="fix_a" href="">About us</a></li>
+                    <li class="footer_item"><a class="fix_a" href="">Features</a></li>
+                    <li class="footer_item"><a class="fix_a" href="">Privacy police</a></li>
+                    <li class="footer_item"><a class="fix_a" href="">Terms & Conditions</a></li>
+                </ul>
+
+                <ul class="footer_list fix_ul">
+                    <li>
+                        <h4>support</h4>
+                    </li>
+                    <li class="footer_item"><a class="fix_a" href="">F.A.Q.</a></li>
+                    <li class="footer_item"><a class="fix_a" href="">Contact us</a></li>
+                    <li class="footer_item"><a class="fix_a" href="">Live chat</a></li>
+                    <li class="footer_item"><a class="fix_a" href="">Phone call</a></li>
+                </ul>
+
+            </div>
+            <h4 class="footer_name">Constantine Huzenko 2020</h4>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
 
 </html>
