@@ -1,14 +1,16 @@
 // Hamburger icon close animation
-var burgerClose = document.getElementById('burger')
-var burgerBody = document.getElementById('body')
-var burgerPage = document.getElementById('burger_page')
-var burgerHeader = document.getElementById('header')
+let burgerClose = document.getElementById('burger')
+let burgerBody = document.getElementById('body')
+let burgerPage = document.getElementById('burger_page')
+let burgerHeader = document.getElementById('header')
 
 burgerClose.addEventListener('click', function () {
     burgerClose.classList.toggle('close');
     burgerBody.classList.toggle('body_fix');
     burgerPage.classList.toggle('burger_page_open');
     burgerHeader.classList.toggle('white');
+    document.getElementById("header").className = "header header_fixed";
+    document.getElementById("main_section").className = "main_section margin";
 });
 
 // Sticky nav bar
@@ -23,3 +25,10 @@ function myFunction() {
         document.getElementById("main_section").className = "main_section";
     }
 };
+
+// Animations
+let mainImg = document.querySelector('.main_img_inner') 
+
+window.onload = function() {
+    mainImg.classList.add('main_img_inner_animation')
+}
