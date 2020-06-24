@@ -558,6 +558,7 @@ p {
     }
     .protect_block_img {
         width: 450px;
+        height: 400px;
     }
     .protect_block_img_inner {
         width: 100%;
