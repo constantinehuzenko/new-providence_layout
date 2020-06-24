@@ -557,8 +557,7 @@ p {
         margin-top: -50px;
     }
     .protect_block_img {
-        min-width: 100%;
-        height: 100%;
+        width: 450px;
     }
     .protect_block_img_inner {
         width: 100%;
