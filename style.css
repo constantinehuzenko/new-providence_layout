@@ -468,6 +468,7 @@ p {
     width: 130px;
     height: 41px;
     background: #6fc754;
+    -webkit-appearance: none;
 }
 
 /* Footeer */
