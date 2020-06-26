@@ -364,6 +364,9 @@
   -webkit-filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.55));
 
   filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.55));
+  
+  -webkit-appearance: none;
+
 }
 
 /* Benefits */
