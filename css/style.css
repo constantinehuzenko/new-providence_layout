@@ -53,9 +53,7 @@
   z-index: 10;
 
   -webkit-box-align: center;
-
   -ms-flex-align: center;
-
   align-items: center;
 }
 
@@ -113,9 +111,7 @@
   background: #26272d;
 
   -webkit-transition: 0.2s;
-
   -o-transition: 0.2s;
-
   transition: 0.2s;
 }
 
@@ -124,7 +120,6 @@
   top: 5.25px;
 
   -webkit-transform: rotate(-45deg);
-
   -ms-transform: rotate(-45deg);
 
   transform: rotate(-45deg);
@@ -142,9 +137,7 @@
   top: -5.25px;
 
   -webkit-transform: rotate(45deg);
-
   -ms-transform: rotate(45deg);
-
   transform: rotate(45deg);
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
@@ -173,9 +166,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
   -webkit-transition: 0.5s;
-
   -o-transition: 0.5s;
-
   transition: 0.5s;
 }
 
@@ -193,9 +184,7 @@
   background: #ffffff;
 
   -webkit-transition: 0.5s;
-
   -o-transition: 0.5s;
-
   transition: 0.5s;
 }
 
@@ -254,9 +243,7 @@
   background: url("../images/banner_background_main.jpg") bottom/cover no-repeat;
 
   -webkit-box-align: center;
-
   -ms-flex-align: center;
-
   align-items: center;
 
   overflow: hidden;
@@ -328,9 +315,7 @@
   color: #ffffff;
 
   -webkit-transform: translate(0px, -5px);
-
   -ms-transform: translate(0px, -5px);
-
   transform: translate(0px, -5px);
 }
 
@@ -356,17 +341,12 @@
   bottom: -320px;
 
   display: -webkit-box;
-
   display: -ms-flexbox;
-
   display: flex;
 
-  -webkit-filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.55));
-
-  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.55));
-  
+  -webkit-filter: drop-shadow(0 0px 0px rgba(0, 0, 0, 0.55));
+  filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.55));
   -webkit-appearance: none;
-
 }
 
 /* Benefits */
@@ -605,7 +585,6 @@
   padding-bottom: 50px;
 
   -webkit-filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.35));
-
   filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.35));
 }
 
