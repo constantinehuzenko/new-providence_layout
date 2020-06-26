@@ -251,7 +251,7 @@
 
   min-height: 870px;
 
-  background: url("images/banner_background.jpg") bottom/cover no-repeat;
+  background: url("/images/banner_background_main.jpg") bottom/cover no-repeat;
 
   -webkit-box-align: center;
 
