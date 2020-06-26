@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+
+  color: #26272d;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wraper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.fix_ul {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.fix_a {
+  color: unset;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Varela Round", sans-serif;
+  font-size: 62px;
+}
+
+h2 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 42px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 26px;
+}
+
+h4 {
+  color: #8c8f94;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+
+  color: #8c8f94;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.body.body_fix {
+  overflow: hidden;
+}
+
+.nav_link,
+.nav_btn,
+.main_btn_inner,
+.main_corn,
+.protect_block_btn1,
+.protect_block_btn2,
+.form_input > input:nth-child(2),
+.app_screen_btn_img,
+.footer_item {
+  -webkit-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.nav_link:hover,
+.nav_btn:hover,
+.protect_block_btn1:hover,
+.protect_block_btn2:hover,
+.form_input > input:nth-child(2):hover,
+.app_screen_btn_img:hover {
+  -webkit-transform: translate(0, -3px);
+  -ms-transform: translate(0, -3px);
+  transform: translate(0, -3px);
+  -webkit-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+  opacity: 0.5;
+}

@@ -1,0 +1,73 @@
+.nav_right.animation,
+.main_img_inner.animation,
+.benefits_inner.animation,
+.protect_block_content > h2.animation,
+.protect_block_content > p.animation,
+.protect_block_btns.animation,
+.map_block_content > h2.animation,
+.map_block_content > p.animation,
+.map_block_partners.animation,
+.app_screens > h1.animation,
+.app_screens > h4.animation,
+.app_screens_breakline.animation,
+.app_screens_imgs.animation,
+.form > h4.animation,
+.form > h1.animation,
+.form_input.animation,
+.app_screen_btn.animation,
+.footer_inner.animation {
+  -webkit-animation: slide-top 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.nav_left.animation,
+.nav_logo.animation,
+.nav_right.animation,
+.main_text_small.animation {
+  -webkit-animation: slide-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.nav_logo.animation {
+  -webkit-animation: slide-top 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.main_text_large.animation {
+  -webkit-animation: slide-top 1.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 1.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.main_btn.animation,
+.protect_block_img.animation,
+.map_block_img.animation {
+  -webkit-animation: slide-top 1.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 1.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(120px);
+    transform: translateY(120px);
+    opacity: 0;
+    z-index: 500;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    z-index: 500;
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(120px);
+    transform: translateY(120px);
+    opacity: 0;
+    z-index: 500;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    z-index: 500;
+  }
+}
