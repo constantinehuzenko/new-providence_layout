@@ -344,7 +344,7 @@
   display: -ms-flexbox;
   display: flex;
 
-  -webkit-filter: drop-shadow(0 0px 0px rgba(0, 0, 0, 0.55));
+  -webkit-filter: drop-shadow(0 0 0 rgba(0, 0, 0, 0));
   filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.55));
   -webkit-appearance: none;
 }
