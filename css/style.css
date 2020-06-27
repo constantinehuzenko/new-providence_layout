@@ -20,10 +20,6 @@
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-.nav {
-  padding: 10px 0;
-}
-
 .nav_inner_items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -233,7 +229,7 @@
 
 .main_section {
   position: relative;
-  top: -60px;
+  top: -70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
