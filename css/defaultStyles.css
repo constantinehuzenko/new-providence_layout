@@ -38,6 +38,14 @@ h1 {
   font-size: 62px;
 }
 
+.h2-h1 {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Varela Round", sans-serif;
+  font-size: 62px;
+}
+
 h2 {
   font-family: "Varela Round", sans-serif;
   font-size: 42px;
